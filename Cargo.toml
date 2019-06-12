@@ -7,7 +7,7 @@ description = "dummy-cargo-toml-creater for docker cache"
 license = "MIT"
 homepage = "https://github.com/nnao45/dummy-cargo-toml-creater"
 repository = "https://github.com/nnao45/dummy-cargo-toml-creater"
-license-file = "LICENCE"
+license-file = "LICENSE"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
