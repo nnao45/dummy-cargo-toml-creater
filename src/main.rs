@@ -5,10 +5,10 @@ use std::io::BufRead;
 use std::fs::File;
 use std::io::prelude::*;
 
-use toml_edit::{Document, value, Array, ArrayOfTables};
+use toml_edit::{Document, value};
 
 fn main(){
-    //ctoml_creater();
+    ctoml_creater();
     clock_creater();
 }
 
