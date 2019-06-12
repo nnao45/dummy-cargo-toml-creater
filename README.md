@@ -6,7 +6,7 @@ dummy-cargo-toml-creater for docker cache
 ### Engilish
 It's nice to have Docker build, but I just want to cache dependent packages.
 But to do that, first write `COPY Cargo.toml Cargo.lock. /` To Dockerfile,
-It's nice to build, but every time the version of the package itself goes up, for example, the hash of `Cargo.toml` or` Cargo.lock` changes.
+It's nice to build, but every time the version of the package itself goes up, for example, the hash of `Cargo.toml` or `Cargo.lock` changes.
 Even a minor bug fix, the dependency package has to be rebuilt.
 
 So we introduce a technique called `dummy-cargo-toml-creater`.
