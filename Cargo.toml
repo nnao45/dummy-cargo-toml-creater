@@ -1,6 +1,6 @@
 [package]
 name = "dummy-cargo-toml-creater"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["nnao45 <n4sekai5y@gmail.com>"]
 edition = "2018"
 description = "dummy-cargo-toml-creater for docker cache"
