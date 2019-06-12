@@ -1,3 +1,4 @@
 /target
 **/*.rs.bk
 DummyVersion.toml
+DummyVersion.lock
