@@ -10,7 +10,7 @@ It's nice to build, but every time the version of the package itself goes up, fo
 Even a minor bug fix, the dependency package has to be rebuilt.
 
 So we introduce a technique called `dummy-cargo-toml-creater`.
-Just look at the source `. / Src / main.rs`, but it's only 70 lines of code.
+Just look at the source `./src/main.rs`, but it's only 70 lines of code.
 We have implemented only the minimum implementation so as not to do anything extra or suspicious.
 
 In other words, with the approach of not changing the versions of Cargo.toml and Cargo.lock,
@@ -162,4 +162,4 @@ $ docker build -t nnao45/dummy .
  => => naming to docker.io/nnao45/dummy                                                                                   0.0
 ```
 
-chache it!!
+cache it!!
