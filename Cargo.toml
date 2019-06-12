@@ -4,7 +4,11 @@ version = "0.1.1"
 authors = ["nnao45 <n4sekai5y@gmail.com>"]
 edition = "2018"
 description = "dummy-cargo-toml-creater for docker cache"
-licence = "MIT"
+license = "MIT"
+homepage = "https://github.com/nnao45/dummy-cargo-toml-creater"
+repository = "https://github.com/nnao45/dummy-cargo-toml-creater"
+license-file = "LICENCE"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
