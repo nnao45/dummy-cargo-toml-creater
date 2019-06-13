@@ -98,7 +98,7 @@ RUN cargo build --release
 4. Run docker build
 ```bash
 $ $ docker build -t nnao45/dummy .
-[+] Building 119.7s (18/18) FINISHED                                                                                           
+[+] Building 119.7s (18/18) FINISHED
  => [internal] load .dockerignore                                                                                         0.0s
  => => transferring context: 2B                                                                                           0.0s
  => [internal] load build definition from Dockerfile                                                                      0.0s
@@ -135,7 +135,7 @@ $ vi Cargo.toml
 4. Reun docker build
 ```bash
 $ docker build -t nnao45/dummy .
-[+] Building 14.2s (18/18) FINISHED                                                                                            
+[+] Building 14.2s (18/18) FINISHED
  => [internal] load build definition from Dockerfile                                                                      0.1s
  => => transferring dockerfile: 44B                                                                                       0.0s
  => [internal] load .dockerignore                                                                                         0.0s

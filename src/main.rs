@@ -21,7 +21,6 @@ fn ctoml_creater() {
         Err(e) => panic!("{}", e),
     };
     let mut doc = manifest_str.parse::<Document>().expect("invalid doc");
-    println!("{:?}", doc["package"]);
     doc["package"]["version"] = value("0.1.0");
     let mut file = std::fs::File::create("./DummyVersion.toml").unwrap();
     file.write_all(doc.to_string().as_bytes()).expect("Could not write to file!");
